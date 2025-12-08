@@ -16,7 +16,7 @@ void TIMER1_voidInit_PWM(void)
 
 void TIMER1_voidSetFrequency(uint16_t Copy_u16Freq_Hz)
 {
-    ICR1 = (2000000UL / Copy_u16Freq_Hz) - 1;  // 16MHz / 8 / Freq
+    ICR1 = (1000000UL / Copy_u16Freq_Hz) - 1;   // 8MHz / 8 = 1MHz
 }
 
 void TIMER1_voidSetDutyCycle(uint8_t Copy_u8Duty)
