@@ -1,7 +1,7 @@
 #include "UART.h"
 #include <avr/io.h>
 
-#define F_CPU 16000000UL
+#define F_CPU 8000000UL
 #define BAUD 9600
 #define UBRR_VALUE ((F_CPU/(16UL*BAUD))-1)
 
