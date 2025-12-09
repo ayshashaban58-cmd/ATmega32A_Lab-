@@ -1,7 +1,5 @@
 # ATmega32A_Lab
 
-Here’s a short and clear **Expected Results** README section in English for all the experiments you posted:
-
 ### Experiment 4.1 - Toggle LEDs
 **Expected Result:**  
 All 8 LEDs connected to PORTB will blink together (ON for 500 ms, OFF for 500 ms) continuously, creating a clear blinking effect.
