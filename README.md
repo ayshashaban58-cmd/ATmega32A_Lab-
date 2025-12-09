@@ -71,5 +71,3 @@ When no key is pressed → all LEDs OFF.
 | B   | 00110011                   | Two middle pairs                |
 | C   | 01100110                   | X shape                         |
 | D   | Fast blink (3 times)       | All LEDs flash quickly 3 times  |
-
-These are the exact behaviors you should observe on a properly wired ATmega32/ATmega32A kit. Enjoy your lab! 🚀
